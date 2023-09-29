@@ -1079,7 +1079,6 @@ webpackJsonp_name_([1],[
 	// type SynonymMap = {[key: string]: TMAction}
 	// (SynonymMap?, Object, string | Object) -> TMAction
 	function parseInstruction(synonyms, table, val) {
-	  console.log('test');
 	  return checkTarget(table, function () {
 	    switch (typeof val) {
 	      case 'string': return parseInstructionString(synonyms, val);
